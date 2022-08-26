@@ -5,4 +5,7 @@ $(function () {
             $("#onCollaps").collapse('hide');
         }     
     });
+    $(".navbar-toggle").click(function (event) {
+        $(event.target).focus();
+    });
 });
